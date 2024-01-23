@@ -13,7 +13,7 @@ public class connection {
 
     static void baglan() {
         try {
-            connect = DriverManager.getConnection("jdbc:postgresql://localhost:5432/obs", "postgres", "root");
+            connect = DriverManager.getConnection("jdbc:postgresql://localhost:5432", "{database_username}", "{database_password}");
         } catch (SQLException e) {
             e.printStackTrace();
         }
