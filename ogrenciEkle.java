@@ -1,5 +1,5 @@
 package obs;
-
+//random student creator
 import java.util.*;
 
 public class ogrenciEkle {
