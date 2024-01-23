@@ -38,7 +38,7 @@ public class anaMenu extends JFrame {
     ImageIcon ico;
 
     anaMenu() throws InterruptedException, SQLException {
-        ico = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\modular.png");
+        ico = new ImageIcon("img\\modular.png");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         setUndecorated(true);
@@ -51,16 +51,16 @@ public class anaMenu extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                Image image = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
+                Image image = new ImageIcon("img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
                 g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
             }
         };
         panel.setLayout(new BorderLayout());
 
-        cikisPNG = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\logout.png");
+        cikisPNG = new ImageIcon("img\\logout.png");
         cikis = new JButton(cikisPNG);
 
-        adminPNG = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\setting.png");
+        adminPNG = new ImageIcon("img\\setting.png");
         admin = new JButton(adminPNG);
 
         ogrenciText = new JLabel("Öğrenci Giriş");
