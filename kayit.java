@@ -31,7 +31,7 @@ public class kayit extends JFrame {
     ImageIcon ico;
 
     kayit() {
-        ico = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\setting.png");
+        ico = new ImageIcon("img\\setting.png");
         setSize(400, 300);
         setLocationRelativeTo(null);
         setResizable(false);
@@ -41,7 +41,7 @@ public class kayit extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                Image image = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
+                Image image = new ImageIcon("img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
                 g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
             }
         };
