@@ -49,7 +49,7 @@ public class ogrenci extends JFrame {
     ImageIcon backIco;
 
     public ogrenci() throws SQLException {
-        ico = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\reading-book.png");
+        ico = new ImageIcon("img\\reading-book.png");
         setSize(600, 450);
         setLocationRelativeTo(null);
         setTitle(title);
@@ -60,7 +60,7 @@ public class ogrenci extends JFrame {
             @Override
             protected void paintComponent(Graphics g) {
                 super.paintComponent(g);
-                Image image = new ImageIcon("C:\\Users\\enesk\\Documents\\NetBeansProjects\\obs\\src\\img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
+                Image image = new ImageIcon("img\\HD-wallpaper-blue-faded-colors-abstract.jpg").getImage();
                 g.drawImage(image, 0, 0, getWidth(), getHeight(), this);
             }
         };
